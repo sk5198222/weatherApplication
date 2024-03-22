@@ -1,10 +1,66 @@
+*{
+  font-family: arial;
+}
+
 body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(to right,darkblue,black);
 }
 
 .cont{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 360px;
+}
+
+.logo{
+  display: block;
+  width: 320px;
+}
+
+.srBar{
+  border-radius:38px;
+  border: none;
+  height: 32px;
+  width: 340px;
+}
+
+.srBar::placeholder{
+  font-size: medium;
+  padding-left: 16px;
+  opacity: 0.8;
+}
+
+button{
+  cursor: pointer;
+}
+
+.srBtn{
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin-left: 4px;
+}
+
+.srLogo{
+  margin-top:2px;
+  width: 24px;
+  height: 24px;
+}
+
+.formCont{
+  margin-left: 12px;
+  margin-top: 16px;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
-
