@@ -1,0 +1,10 @@
+body{
+  background: linear-gradient(to right,darkblue,black);
+}
+
+.cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
