@@ -36,6 +36,11 @@ body{
   opacity: 0.8;
 }
 
+.srBar[type=text]{
+  font-size: medium;
+  padding-left: 22px;
+}
+
 button{
   cursor: pointer;
 }
