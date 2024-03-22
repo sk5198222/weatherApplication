@@ -46,7 +46,6 @@ public class myServlet extends HttpServlet {
 		
 		try {
 			String city=request.getParameter("city");
-			System.out.println(city);
 			
 			String apiKey="2f9745bfad41ce6b1f46728877c77605";
 			
@@ -71,8 +70,6 @@ public class myServlet extends HttpServlet {
 			
 			Gson gs=new Gson();
 			JsonObject jsonObj = gs.fromJson(str.toString(), JsonObject.class);
-			
-			//System.out.println(jsonObj);
 			
 			long dateTimestamp = jsonObj.get("dt").getAsLong() * 1000;
 	        String date = new Date(dateTimestamp).toString();
