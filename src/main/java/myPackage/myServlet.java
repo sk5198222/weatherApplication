@@ -88,7 +88,8 @@ public class myServlet extends HttpServlet {
 	        request.setAttribute("humidity", humidity);
 	        request.setAttribute("wind", windSpeed);
 	        request.setAttribute("wCond", weatherCondition);
-	        
+	        request.setAttribute("city", city);
+
 	        conn.disconnect();
 	        
 	        request.getRequestDispatcher("index.jsp").forward(request, response);
