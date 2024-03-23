@@ -1,5 +1,5 @@
-<!--<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>-->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +19,7 @@
 			<div class="pic">
 				<img src="" id="wc-icon">
 			</div>
-			<h2>${temp}</h2>
+			<h2>${temp}&#xb0;C</h2>
 			<input type="hidden" value="${wCond}" id="w-c">
 		</div>
 
